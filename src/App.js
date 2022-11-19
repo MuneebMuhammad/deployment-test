@@ -19,9 +19,9 @@ function App() {
   return (
     <div>
       <form>
-        <label htmlFor='first'>Youtube Finals Your First name from tests</label>
+        <label htmlFor='first'>muneeb First name</label>
         <input type="text" id ="first" placeholder='first name' onChange={(e)=> setFirst(e.target.value)}></input>
-        <label htmlFor='last'>Yourtube Finals Your last name  from tests</label>
+        <label htmlFor='last'>muneeb Last name</label>
         <input type="text" id ="last" placeholder='last name' onChange={(e)=> setlast(e.target.value)}></input>
         <button type="button" onClick={handleSubmit}>Submit</button>
       </form>
