@@ -1,7 +1,7 @@
 import './App.css';
-import React, { useRef, useState } from "react";
-import { collection, getDoc, doc, setDoc } from "firebase/firestore";
-import { app, db, storage } from "./firebase";
+import React, { useState } from "react";
+import { doc, setDoc } from "firebase/firestore";
+import { db } from "./firebase";
 
 function App() {
   const [first, setFirst] = useState("");
